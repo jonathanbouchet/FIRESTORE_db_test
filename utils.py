@@ -66,8 +66,6 @@ def template_insurance():
             ###
             The first question is "what is your name?"
             ###
-            After that, ask for my height in centimeters and weight in pounds
-            ###
             After that, ask for my height and weight and calculate my Body Mass Index (BMI).
             Instructions:
                 - always double check the units for weight and height before calculation
