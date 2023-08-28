@@ -68,10 +68,15 @@ def template_insurance():
             ###
             After that, ask for my height in centimeters and weight in pounds
             ###
-            Calculate my BMI.
-            Do not provide me the intermediate calculations, just give me the final result.
-            If it is greater than 35, then ask for my average weight for the last 3 years. 
-            if it is less than 35, move forward to the next question.
+            After that, ask for my height and weight and calculate my Body Mass Index (BMI).
+            Instructions:
+                - always double check the units for weight and height before calculation
+                - always double check for human possible weight and height values
+                - do not provide the intermediate calculations
+                - action: present the final result 
+            Action:
+                - If BMI is greater than 35, then ask for my average weight for the last 3 years. 
+                - if BMI is less than 35, move forward to the next question.
             ###
             The next question is "Are you currently taking any medications?"
             ###
